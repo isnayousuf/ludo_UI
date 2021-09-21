@@ -448,7 +448,7 @@
     position: relative;
     bottom: 69.2rem;
     left:31.4rem;
-    background-color: green;
+
 
 }
 .cross2{
@@ -812,11 +812,115 @@
 }
  .outer{
     width: 800px;
-    height: 620px;
-    border: 4px solid black;
+    height:630px;
+    border: 6px solid black;
+    box-shadow: 0 0 0 10px black;
     position: relative;
     bottom: 203rem;
     left: 9.5rem;
     background-color: whitesmoke;
     z-index: -1;
 } 
+#down{
+    font-size: 7rem;
+    position: relative;
+    color: rgb(207, 178, 14);
+    bottom: 2.6rem;
+    left: 0.8rem;
+}
+#right{
+    font-size: 7rem;
+    position: relative;
+    bottom: 8rem;
+    color: green;
+
+}
+#left{
+    font-size: 7rem;
+    color: rgb(57, 148, 160);
+    position: relative;
+    bottom: 8.2rem;
+    left: 0.7rem;
+
+}
+#up{
+    font-size: 7rem;
+    position: relative;
+    bottom: 13.52rem;
+    left: 0.8rem;
+    color: rgb(114, 25, 25);
+
+}
+#one{
+    font-size: 2rem;
+    position: relative;
+    bottom: 0.2rem;
+    left: 0.2rem;
+}
+.green-spin{
+    width: 3.8rem;
+    height: 4.7rem;
+    border: 3px solid black;
+    background-color: green;
+    position: absolute;
+    top:2.5rem;
+    left: 11.2rem;
+}
+#spin{
+    position: relative;
+    left:0.8rem;
+    top: 0.7rem;
+}
+#spin2{
+    position: relative;
+    left:1rem;
+    top: 0.7rem;
+}
+#spin3{
+    position: relative;
+    top: 2rem;
+    right: 1.7rem;
+}
+#spin4{
+    position: relative;
+    top: 0.9rem;
+    left: 2.2rem
+}
+#spin5{
+    position: relative;
+    top: 2.1rem;
+    right: 0.4rem;
+}
+#spin6{
+    position: relative;
+    top: 2.1rem;
+    right: 0.3rem;
+}
+.yellow-spin{
+    background-color: rgb(207, 178, 14);
+    width: 3.8rem;
+    height: 4.7rem;
+    border: 3px solid black;
+    position: absolute;
+    top:2.5rem;
+    left: 55.2rem;
+}
+.red-spin{
+    width: 3.8rem;
+    height: 4.7rem;
+    border: 3px solid black;
+    background-color:rgb(114, 25, 25);
+    position: absolute;
+    top:32.1rem;
+    left: 11.2rem;
+}
+.cyan-spin{
+    width: 3.8rem;
+    height: 4.7rem;
+    border: 3px solid black;
+    background-color:  rgb(57, 148, 160);
+    position: absolute;
+    top:32.1rem;
+    left: 55.2rem;
+}
+
